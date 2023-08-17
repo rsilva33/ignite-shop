@@ -1,7 +1,7 @@
 import { getCssText } from '@/styles'
 import { Html, Head, Main, NextScript } from 'next/document'
 
-// todo elemento dentro desse arquivo sera carregado em toda aplicacao
+// todo elemento dentro desse arquivo sera carregado em toda aplicacao, nao e recomendado que coloque css dentro desse documento
 export default function Document() {
   return (
     <Html>
