@@ -1,4 +1,3 @@
-import { Container } from 'postcss'
 import { styled } from '..'
 
 export const HomeContainer = styled('main', {
