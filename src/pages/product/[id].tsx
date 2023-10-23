@@ -9,7 +9,7 @@ import {
   ProductContainer,
   ProductDetails,
 } from '../../styles/pages/product'
-import { Head } from 'next/document'
+import Head from 'next/head'
 
 interface ProductProps {
   product: {
@@ -46,9 +46,9 @@ export default function Product({ product }: ProductProps) {
 
   return (
     <>
-      {/* <Head>
+      <Head>
         <title>{product.name} | Ignite Shop</title>
-      </Head> */}
+      </Head>
 
       <ProductContainer>
         <ImageContainer>
